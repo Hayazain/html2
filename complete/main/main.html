@@ -1,0 +1,97 @@
+<head>
+    <title>Complete HTML</title>
+</head>
+<body>
+    <h1 id="MN"></h1> 
+    <form action="/submit-form" method="post">
+        <fieldset>
+            <legend>Form</legend>
+            <p>
+                <label>First Name:
+                    <input type="text" name="first_name" required placeholder="Enter first name" id="first_name">
+                </label>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <label>Surname:
+                    <input type="text" name="surname" required placeholder="Enter surname" id="surname">
+                </label>
+            </p>
+            <p>
+                <label>Contact Number:
+                    <input type="text" name="contact_number" required placeholder="Enter contact number" id="contact_number">
+                </label>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <label>Email:
+                    <input type="email" name="email" required placeholder="Enter email" id="email">
+                </label>
+            </p>
+            <p>
+                <label>Address:
+                    <input type="text" name="address" required placeholder="Enter address" id="address">
+                </label>
+            </p>
+            <p>
+                <label>Age:
+                    <input type="number" name="age" placeholder="Enter age">
+                </label>
+            </p>
+            <p>
+                Gender:&nbsp;
+                <label>
+                    <input type="radio" name="gender" value="female">
+                    Female
+                </label>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <label>
+                    <input type="radio" name="gender" value="male">
+                    Male
+                </label>
+            </p>
+            <p>
+                <label>Religion:
+                    <input type="text" name="religion" required placeholder="Enter religion" id="religion">
+                </label>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <label>Nationality:
+                    <input type="text" name="nationality" required placeholder="Enter nationality" id="nationality">
+                </label>
+            </p>
+            <p>
+                Marital status:<br>
+                <label>
+                    <input type="radio" name="marital_status" value="single">
+                    Single
+                </label>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <label>
+                    <input type="radio" name="marital_status" value="taken">
+                    Taken
+                </label>
+            </p>
+            <p>
+                Write your thoughts:<br>
+                <textarea name="comments" cols="40" rows="5">Write your thoughts here</textarea>
+            </p>
+            <p>
+                Area:<br>
+                <select name="area">
+                    <option value="johar" selected>Johar</option>
+                    <option value="nazimabad">Nazimabad</option>
+                    <option value="gulshan">Gulshan</option>
+                    <option value="defence">Defence</option>
+                </select>
+            </p>
+            <p>
+                Number of houses you want to purchase:<br>
+                <input type="number" name="houses">
+            </p>
+            <p>
+                <label for="date">Date:</label>
+                <input type="date" name="date"> 
+            </p>
+            <p>
+                <input type="submit" name="submit">
+                <input type="reset" name="reset">
+            </p>
+        </fieldset>
+    </form>
+</body>    
